@@ -1,0 +1,75 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Parabank</th></tr>
+<tr><td><a href="#t0">MyTest1</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">20,155</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">MyTest2</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">13,235</td><td></td><td></td></tr>
+<tr><td><a href="#t2">MyTest3</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">16,669</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t3">MyTest4</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">17,294</td><td></td><td></td></tr>
+<tr><td><a href="#t4">MyTest5</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">14,212</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t5">MyTest6</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">15,376</td><td></td><td></td></tr>
+<tr><td><a href="#t6">MyTest7</a></td><td class="num">0</td><td class="num attn">1</td><td class="num">0</td><td class="num">0</td><td class="num">6,897</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">6</th><th class="num attn">1</th><th class="num">0</th><th class="num">0</th><th class="num">103,838</th><th colspan="2"></th></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Parabank</th></tr></tbody><tbody id="t0"><tr><th colspan="4">MyTest1 &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">steps.RegistrationTest</td><td><a href="#m0">the_user_is_on_Home_page</a></td><td rowspan="1">1757157021578</td><td rowspan="1">8517</td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">MyTest2 &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">steps.LoginTest</td><td><a href="#m1">user_on_login_page</a></td><td rowspan="1">1757157035748</td><td rowspan="1">7804</td></tr></tbody>
+<tbody id="t2"><tr><th colspan="4">MyTest3 &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">steps.OpenAccountTest</td><td><a href="#m2">user_is_logged_in</a></td><td rowspan="1">1757157049259</td><td rowspan="1">11006</td></tr></tbody>
+<tbody id="t3"><tr><th colspan="4">MyTest4 &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">steps.LoanTest</td><td><a href="#m3">user_is_logged_in_for_loan_request</a></td><td rowspan="1">1757157067257</td><td rowspan="1">10288</td></tr></tbody>
+<tbody id="t4"><tr><th colspan="4">MyTest5 &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">steps.TransferFundTest</td><td><a href="#m4">user_is_logged_in_for_transferring_funds</a></td><td rowspan="1">1757157083261</td><td rowspan="1">8612</td></tr></tbody>
+<tbody id="t5"><tr><th colspan="4">MyTest6 &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">steps.TranctionHistoryTest</td><td><a href="#m5">user_is_logged_in</a></td><td rowspan="1">1757157097499</td><td rowspan="1">9472</td></tr></tbody>
+<tbody id="t6"><tr><th colspan="4">MyTest7 &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">steps.LogoutTest</td><td><a href="#m6">setUp</a></td><td rowspan="1">1757157107533</td><td rowspan="1">6870</td></tr><tr><th colspan="4">MyTest7 &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="1">steps.LogoutTest</td><td><a href="#m7">tearDown</a></td><td rowspan="1">1757157114424</td><td rowspan="1">0</td></tr><tr><th colspan="4">MyTest7 &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">steps.LogoutTest</td><td><a href="#m8">user_is_logged_in_for_logout</a></td><td rowspan="1">1757157114414</td><td rowspan="1">0</td></tr></tbody>
+</table>
+<h2>MyTest1</h2><h3 id="m0">steps.RegistrationTest#the_user_is_on_Home_page</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>MyTest2</h2><h3 id="m1">steps.LoginTest#user_on_login_page</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>MyTest3</h2><h3 id="m2">steps.OpenAccountTest#user_is_logged_in</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>MyTest4</h2><h3 id="m3">steps.LoanTest#user_is_logged_in_for_loan_request</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>MyTest5</h2><h3 id="m4">steps.TransferFundTest#user_is_logged_in_for_transferring_funds</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>MyTest6</h2><h3 id="m5">steps.TranctionHistoryTest#user_is_logged_in</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>MyTest7</h2><h3 id="m6">steps.LogoutTest#setUp</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchSessionException: invalid session id: session deleted as the browser has closed the connection
+from disconnected: Unable to receive message from renderer
+  (Session info: chrome=139.0.7258.155)
+Build info: version: &apos;4.35.0&apos;, revision: &apos;1c58e5028b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d86d369acf3d5b4449f27a6b66217776, get {url=https://parabank.parasoft.com/parabank/transfer.htm}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.155, chrome: {chromedriverVersion: 139.0.7258.154 (9e0d6b2b47f..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64153}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64153/devtoo..., se:cdpVersion: 139.0.7258.155, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d86d369acf3d5b4449f27a6b66217776
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:557)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:325)
+	at steps.BaseTest.setUp(BaseTest.java:38)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">steps.LogoutTest#tearDown</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">steps.LogoutTest#user_is_logged_in_for_logout</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchSessionException: invalid session id: session deleted as the browser has closed the connection
+from disconnected: Unable to receive message from renderer
+  (Session info: chrome=139.0.7258.155)
+Build info: version: &apos;4.35.0&apos;, revision: &apos;1c58e5028b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d86d369acf3d5b4449f27a6b66217776, get {url=https://parabank.parasoft.com/parabank/transfer.htm}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.155, chrome: {chromedriverVersion: 139.0.7258.154 (9e0d6b2b47f..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64153}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64153/devtoo..., se:cdpVersion: 139.0.7258.155, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d86d369acf3d5b4449f27a6b66217776
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:557)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:325)
+	at steps.BaseTest.setUp(BaseTest.java:38)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>
